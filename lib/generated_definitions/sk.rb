@@ -20,7 +20,7 @@ module Holidays
             {:mday => 8, :name => "Deň víťazstva nad fašizmom", :regions => [:sk]}],
       7 => [{:mday => 5, :name => "Sviatok svätého Cyrila a svätého Metoda", :regions => [:sk]}],
       8 => [{:mday => 29, :name => "Výročie Slovenského národného povstania", :regions => [:sk]}],
-      9 => [{:mday => 1, :name => "Deň Ústavy Slovenskej republiky", :regions => [:sk]},
+      9 => [{:mday => 1, :year_ranges => { :between => 1994..2023 },:name => "Deň Ústavy Slovenskej republiky", :regions => [:sk]},
             {:mday => 15, :name => "Sedembolestná Panna Mária", :regions => [:sk]}],
       11 => [{:mday => 1, :name => "Sviatok všetkých svätých", :regions => [:sk]},
             {:mday => 17, :name => "Deň boja za slobodu a demokraciu", :regions => [:sk]}],
