@@ -525,7 +525,7 @@ module Holidays
             {:mday => 8, :name => "Maria Geburt", :regions => [:li]},
             {:mday => 24, :year_ranges => { :limited => [2018] },:name => "Viņa Svētības pāvesta Franciska pastorālās vizītes Latvijā diena", :regions => [:lv]},
             {:mday => 30, :type => :informal, :name => "Dzień Chłopaka", :regions => [:pl]},
-            {:mday => 1, :name => "Deň Ústavy Slovenskej republiky", :regions => [:sk]},
+            {:mday => 1, :year_ranges => { :between => 1994..2023 },:name => "Deň Ústavy Slovenskej republiky", :regions => [:sk]},
             {:mday => 15, :name => "Sedembolestná Panna Mária", :regions => [:sk]},
             {:mday => 6, :name => "Unification Day", :regions => [:bg_en]},
             {:mday => 6, :name => "Ден на Съединението", :regions => [:bg_bg]},
